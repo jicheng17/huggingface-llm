@@ -23,7 +23,6 @@ def image2text(file_name):
     print("#### image to text output: " + text)
     return text
 
-
 # create streamlit app
 st.title("Image to Story")
 uploaded_file = st.file_uploader(

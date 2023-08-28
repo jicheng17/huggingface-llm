@@ -10,7 +10,6 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
 # Query openAI LLM using openAI library
 def askGPT(query):
     llm = OpenAI(temperature=0.7, openai_api_key=openai.api_key)
